@@ -22,3 +22,12 @@ Note some?
 ### Copy dependencies
 
 > [CopyLocalLockFileAssemblies](https://learn.microsoft.com/en-us/dotnet/core/project-sdk/msbuild-props#copylocallockfileassemblies) to set library project build with dependencies.
+
+
+## Git Commands
+
+### Undo things
+
+>[git reset --mixed HEAD^ ](https://git-scm.com/docs/git-reset)
+
+>[Others](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
