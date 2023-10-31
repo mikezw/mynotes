@@ -11,6 +11,7 @@ Note some?
 
 >iscc /DCurrentAppVersion=1.1.0.0 xxx.iss /Q
 
+>if defined XXX set XXX=AAA
 
 ## Build About
 
