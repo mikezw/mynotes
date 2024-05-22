@@ -32,3 +32,8 @@ Note some?
 >[git reset --mixed HEAD^ ](https://git-scm.com/docs/git-reset)
 
 >[Others](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
+
+
+## TeamCity 
+
+>>``` Delete all files in the checkout directory before the build``` if selected, the custom build can not select brunch.
