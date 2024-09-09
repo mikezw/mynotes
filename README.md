@@ -36,4 +36,18 @@ Note some?
 
 ## TeamCity 
 
->>``` Delete all files in the checkout directory before the build``` if selected, the custom build can not select brunch.
+> ``` Delete all files in the checkout directory before the build``` if selected, the custom build can not select brunch.
+
+
+## Articles
+
+> [tateful-or-stateless-classes](https://dzone.com/articles/stateful-or-stateless-classes)
+
+
+## Books
+
+>[Hello world! ](https://refactoring.guru/)
+
+>[Git basic](https://git-scm.com/book/en/v2)
+
+>[fluent2](https://fluent2.microsoft.design/)
