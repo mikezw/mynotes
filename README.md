@@ -51,3 +51,5 @@ Note some?
 >[Git basic](https://git-scm.com/book/en/v2)
 
 >[fluent2](https://fluent2.microsoft.design/)
+
+>[martinfowler](https://martinfowler.com/)
