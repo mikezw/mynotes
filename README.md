@@ -53,3 +53,26 @@ Note some?
 >[fluent2](https://fluent2.microsoft.design/)
 
 >[martinfowler](https://martinfowler.com/)
+
+
+## Some Configs
+
+### Use UseArtifacts
+
+``` code csharp
+    <PropertyGroup>
+        <UseArtifactsOutput>true</UseArtifactsOutput>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <ArtifactsPath>$(MSBuildThisFileDirectory)Build</ArtifactsPath>
+    </PropertyGroup>
+
+```
+
+### Clear _wpftmp folder when use UseArtifacts ([usefull](https://github.com/dotnet/wpf/issues/4299))
+
+``` coed chsarp
+    <Target Name="RemoveWpfTemporaryFolder" AfterTargets="_CompileTemporaryAssembly" Condition="Exists('$(OutDir)') And '$(UseArtifactsOutput)'=='True' And $(MSBuildProjectName.EndsWith('_wpftmp'))">
+        <RemoveDir Directories="$(BaseOutputPath)">
+        </RemoveDir>
+    </Target>
+```
