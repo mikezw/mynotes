@@ -68,7 +68,7 @@ Note some?
 
 ```
 
-### Clear _wpftmp folder when use UseArtifacts ([usefull](https://github.com/dotnet/wpf/issues/4299))
+### Clear _wpftmp folder when use UseArtifacts ([usefull](https://github.com/dotnet/wpf/issues/4299) [usefull](https://github.com/dotnet/wpf/issues/2930) )
 
 ``` coed chsarp
     <Target Name="RemoveWpfTemporaryFolder" AfterTargets="_CompileTemporaryAssembly" Condition="Exists('$(OutDir)') And '$(UseArtifactsOutput)'=='True' And $(MSBuildProjectName.EndsWith('_wpftmp'))">
