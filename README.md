@@ -24,6 +24,10 @@ Note some?
 
 > [CopyLocalLockFileAssemblies](https://learn.microsoft.com/en-us/dotnet/core/project-sdk/msbuild-props#copylocallockfileassemblies) to set library project build with dependencies.
 
+### Run target once when multitargeting
+
+> [learn](https://learn.microsoft.com/en-us/visualstudio/msbuild/run-target-exactly-once?view=vs-2022)
+
 
 ## Git Commands
 
